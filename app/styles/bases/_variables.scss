@@ -1,0 +1,34 @@
+//fonts-face
+@font-face {
+  src: url('../fonts/Nautilus.otf') format('opentype');
+  font-family: 'Nautilus';
+}
+
+// color theme variables
+$black: #000;
+$green: #4dd06c;
+$grey: #ededed;
+$peach: #ff5b53;
+$red: #f33;
+$sun: #ff961a;
+$white: #fff;
+$lime: #95d132;
+$side-menu: rgba(231, 69, 69, .84);
+
+
+// defaults variables
+$primary-color: $peach;
+$secondary-color: $green;
+
+// loading variables
+$loading-bg: $peach;
+
+// btn variables
+$btn-primary: $primary-color;
+$btn-secondary: $secondary-color;
+
+
+
+// cover-header variables
+$text-brand: $white;
+$text-brand-cap: $white;

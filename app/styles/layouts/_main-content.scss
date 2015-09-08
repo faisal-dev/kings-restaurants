@@ -1,0 +1,32 @@
+.content {
+
+  // margin-top: 8rem;
+  // position: absolute;
+  top: 0;
+  transition: all .5s ease;
+
+  @media (min-width: 768px) {
+    margin-left: 15%;
+    width: 85%;
+  }
+
+  @media (min-width: 1280px) {
+    margin-left: 10%;
+    width: 90%;
+  }
+
+  &#{-header} {
+    color: $white;
+    font-size: 1.4em;
+    margin-top: 10rem;
+  }
+
+  &.slide-to-r {
+    left: 15rem;
+  }
+}
+
+.main-content {
+  overflow: hidden;
+  width: 100%;
+}

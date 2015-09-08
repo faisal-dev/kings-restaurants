@@ -1,0 +1,31 @@
+$icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
+
+// bower:scss
+@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+// bases
+@import 'bases/normalizes';
+@import 'bases/variables';
+@import 'bases/mixins';
+@import 'bases/defaults';
+
+// layouts
+@import 'layouts/cover';
+@import 'layouts/home';
+@import 'layouts/main-content';
+@import 'layouts/side-menu';
+@import 'layouts/about';
+@import 'layouts/contact';
+@import 'layouts/footer';
+
+//modules
+@import 'modules/animations';
+@import 'modules/buttons';
+@import 'modules/cart';
+@import 'modules/comment';
+@import 'modules/galleries';
+@import 'modules/helpers';
+@import 'modules/loading';
+@import 'modules/navs';
+@import 'modules/icons';

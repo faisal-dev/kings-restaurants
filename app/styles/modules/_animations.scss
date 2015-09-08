@@ -1,0 +1,11 @@
+.bounce-in {
+  opacity: 1;
+  transform: scale(1);
+  transition: all .5s ease;
+}
+
+.bounce-out {
+  opacity: 0;
+  transform: scale(0);
+  transition: all .5s ease;
+}

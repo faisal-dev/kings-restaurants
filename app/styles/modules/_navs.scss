@@ -1,0 +1,21 @@
+.nav-black {
+  li {
+    border-bottom: 1px solid rgba($white, .1);
+
+    &.actived {
+      background-color: rgba($white, .2);
+    }
+
+    a {
+      color: $white;
+      display: block;
+      height: 44px;
+      line-height: 1.8;
+
+      &:hover,
+      &:focus {
+        background-color: rgba($white, .2);
+      }
+    }
+  }
+}

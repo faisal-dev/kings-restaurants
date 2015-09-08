@@ -1,0 +1,49 @@
+.comments-box {
+  background-color: $grey;
+  display: none;
+  overflow: hidden;
+  padding: 1.5rem 1rem;
+
+  &#{-title} {
+    font-family: 'Open Sans';
+    font-weight: 300;
+    text-align: left;
+    width: 100%;
+  }
+
+  .extended & {
+    display: block;
+  }
+}
+
+.comment-scroll {
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.text-comments {
+  background-color: $white;
+  font-size: 12px;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  text-align: left;
+
+  h4,
+  span,
+  p {
+    float: left;
+  }
+
+  h4 {
+    margin: 0 2rem 0 0;
+  }
+
+  .rating {
+    font-size: .8em;
+  }
+}
+
+.user-comment {
+  margin-bottom: 2rem;
+}

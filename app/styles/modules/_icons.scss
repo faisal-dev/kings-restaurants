@@ -1,0 +1,55 @@
+.icon {
+  background-size: cover;
+  border: 1px solid $black;
+  border-radius: 50%;
+  display: block;
+  filter: invert(100%);
+  height: 80px;
+  margin: 0 auto;
+  margin-bottom: 1.2rem;
+  padding: 2rem;
+  width: 80px;
+}
+
+.icon-promotions {
+  background-image: url('../images/icon-promotion.png');
+}
+
+.icon-foods {
+  background-image: url('../images/icon-foods.png');
+}
+
+.icon-drinks {
+  background-image: url('../images/icon-drinks.png');
+}
+
+.icon-bbq {
+  background-image: url('../images/icon-bbq.png');
+}
+
+.icon-fast-foods {
+  background-image: url('../images/icon-fastfood.png');
+}
+
+.winner {
+  background-size: cover;
+  display: inline-block;
+  height: 100px;
+  margin: 0 auto;
+  margin-bottom: 1.2rem;
+  margin-top: 2.2rem;
+  padding: 2rem;
+  width: 100px;
+}
+
+.icon-winner-1 {
+  background-image: url('../images/winner1.png');
+}
+
+.icon-winner-2 {
+  background-image: url('../images/winner2.png');
+}
+
+.icon-winner-3 {
+  background-image: url('../images/winner3.png');
+}

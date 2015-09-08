@@ -1,0 +1,53 @@
+.galleries {
+  .item {
+    margin: 5px;
+  }
+}
+
+.full-vh {
+  height: 100vh;
+}
+
+.move-left {
+  position: absolute;
+  z-index: 99;
+}
+
+.owl-item {
+  &.extended {
+    width: 50% !important;
+
+    .card {
+      float: left;
+      width: 50%;
+    }
+
+    .comments-box {
+      float: right;
+      width: 50%;
+    }
+  }
+}
+
+// .owl-item {
+//   &.extended {
+//     position: absolute;
+//     width: 50% !important;
+//     z-index: 999;
+
+//     .card {
+//       height: 438px;
+//     }
+
+//     img {
+//       float: left;
+//       width: 60%;
+//     }
+
+//     .card-caption {
+//       float: right;
+//       margin-top: 50px;
+//       width: 40%;
+//     }
+//   }
+// }

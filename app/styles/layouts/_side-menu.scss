@@ -1,0 +1,24 @@
+.side-menu {
+  background-color: rgba($black, .6);
+  border-right: 1px solid rgba($white, .2);
+  font-size: 10px;
+  height: 100%;
+  left: -126px;
+  position: fixed;
+  transition: left .5s ease;
+  z-index: 999;
+
+  @media screen and (min-width: 768px) {
+    font-size: 14px;
+  }
+
+  &.on {
+    left: 0;
+  }
+
+  &#{-logo} {
+    height: 80px;
+    margin: 2rem auto;
+    width: 80px;
+  }
+}

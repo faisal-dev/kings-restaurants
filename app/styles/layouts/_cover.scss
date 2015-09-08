@@ -1,0 +1,50 @@
+.cover {
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.brand {
+  margin-bottom: 5rem;
+  width: 100%;
+
+  &#{-text} {
+    color: $text-brand;
+    font: {
+      family: 'Nautilus', sans-serif;
+      size: 5em;
+    }
+    margin-top: 0;
+  }
+
+  &#{-cap} {
+    color: $text-brand-cap;
+    margin-top: 2.5rem;
+  }
+
+  &#{-logo} {
+    display: block;
+    height: 8em;
+    margin: 0 auto;
+    width: 8em;
+  }
+}
+
+.cover-overlay {
+  background-image: url('../images/cover-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  filter: blur(5px); // IE don't supported => https://github.com/Schepp/CSS-Filters-Polyfill
+  height: 106%; // fixed negative margin
+  margin: -3%;  // removed ugly edge from blur effect
+
+  &:before {
+    background-color: rgba($black, .3);
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+  }
+}

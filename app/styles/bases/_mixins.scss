@@ -1,0 +1,19 @@
+// generate button css
+@mixin button($bg, $f-color, $pd, $bd) {
+  background-color: $bg;
+  border: $bd;
+  color: $f-color;
+  padding: $pd/5 $pd;
+  transition: background-color .5s ease;
+
+  &:hover,
+  &:focus {
+    background: lighten($bg, 10%);
+    color: $f-color;
+    transition: all .3s ease;
+  }
+
+  &:active {
+    background: lighten($bg, 8%);
+  }
+}

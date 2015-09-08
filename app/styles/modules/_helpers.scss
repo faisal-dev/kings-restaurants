@@ -1,0 +1,114 @@
+.card {
+  background-color: $white;
+  border: 1px solid rgba($white, .1);
+  overflow: hidden;
+
+  .card-caption {
+    display: block;
+    padding: 2rem;
+    position: relative;
+  }
+
+  img {
+    &:hover {
+      transform: rotate(2deg) scale(1.2, 1.2);
+      transition: all .5s ease;
+    }
+  }
+}
+
+.date {
+  font-size: 12px;
+  margin-top: 1rem;
+}
+
+// horizon line break
+.hr-vintage {
+  border: 0;
+  border-bottom: 1px dashed $white;
+  position: relative;
+  width: 20px;
+
+  &:before,
+  &:after {
+    background-color: $white;
+    content: '';
+    display: block;
+    height: 1px;
+    position: absolute;
+    width: 50px;
+  }
+
+  &:before {
+    left: 30px;
+  }
+
+  &:after {
+    right: 30px;
+  }
+}
+
+.mg-btm {
+  margin-bottom: 2rem;
+}
+
+// .overflow-visible {
+//   overflow: visible !important;
+// }
+
+.price-tag {
+  background-color: $white;
+  border-radius: 50%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2em;
+  height: 70px;
+  left: 50%;
+  line-height: 3.5;
+  position: absolute;
+  top: 0;
+  transform: translate(-50%, -50%);
+  width: 70px;
+}
+
+.rating {
+  color: $sun;
+  font-size: 2.5em;
+}
+
+.right {
+  text-align: right;
+}
+
+.red {
+  color: $peach;
+}
+
+// align block to middle
+.verticle-middle {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.visible {
+  display: block;
+}
+
+.sec {
+  padding-bottom: 10rem;
+  padding-top: 10rem;
+}
+
+.sec-header {
+  color: $white;
+}
+
+// wrapper absolute
+.wrapper-main {
+  // position: absolute;
+  // top: 0;
+  // z-index: -1;
+  // height: 100%;
+  width: 100%;
+}
